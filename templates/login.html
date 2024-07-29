@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:rgb(249, 238, 33);
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <form method="post" action="{{url_for('alreadyacc')}}">
+    <label for="">Enter your account no</label>
+    <input required type="number" name="accno" placeholder="Enter account number"/><br>
+    <label for="">Enter your pin</label>
+    <input required type="number" name="pinno" placeholder="Enter pin"/><br>
+    <button>submit</button>
+    </form>
+    </center>
+</form>
+</body>
+</html>

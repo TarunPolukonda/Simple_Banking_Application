@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:rgb(248, 236, 20);
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <form method="post">
+    <h1>Welcome Tarun Banking Services</h1>
+    <input required type="number" name="accno" placeholder="Enter account number"/><br>
+    <input required type="number" name="pinno" placeholder="Enter pin"/><br>
+    <input required type="number" name="balance" placeholder="Enter your amount"><br>
+    <button>submit</button>
+    </form>
+    <a href="{{url_for('alreadyacc')}}"><button>Already have an Account</button></a>
+    </center>
+</form>
+</body>
+</html>
